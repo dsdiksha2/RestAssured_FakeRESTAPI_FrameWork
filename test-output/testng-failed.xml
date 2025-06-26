@@ -1,31 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite parallel="tests" name="Failed suite [API Test Suite]">
+<suite thread-count="2" parallel="tests" name="Failed suite [API Test Suite]">
   <listeners>
     <listener class-name="Utility.ExtentReporter"/>
   </listeners>
-  <test thread-count="5" parallel="tests" name="Auth Tests(failed)">
+  <test thread-count="2" parallel="tests" name="User Tests(failed)">
     <classes>
-      <class name="testCases.Login_TestCases">
+      <class name="testCases.User_TestCases">
         <methods>
+          <include name="testDeleteUser"/>
           <include name="SetUp"/>
-          <include name="testValidUserLogin"/>
+          <include name="testUpdateUser"/>
         </methods>
-      </class> <!-- testCases.Login_TestCases -->
+      </class> <!-- testCases.User_TestCases -->
     </classes>
-  </test> <!-- Auth Tests(failed) -->
-  <test thread-count="5" parallel="tests" name="Cart Tests(failed)">
-    <classes>
-      <class name="testCases.Cart_TestCases">
-        <methods>
-          <include name="SetUp"/>
-          <include name="testUpdateCart"/>
-          <include name="testDeleteCart"/>
-        </methods>
-      </class> <!-- testCases.Cart_TestCases -->
-    </classes>
-  </test> <!-- Cart Tests(failed) -->
-  <test thread-count="5" parallel="tests" name="Product Test(failed)">
+  </test> <!-- User Tests(failed) -->
+  <test thread-count="2" parallel="tests" name="Product Test(failed)">
     <classes>
       <class name="testCases.Product_TestCases">
         <methods>
@@ -37,4 +27,37 @@
       </class> <!-- testCases.Product_TestCases -->
     </classes>
   </test> <!-- Product Test(failed) -->
+  <test thread-count="2" parallel="tests" name="Auth Tests(failed)">
+    <classes>
+      <class name="testCases.Login_TestCases">
+        <methods>
+          <include name="SetUp"/>
+          <include name="testValidUserLogin"/>
+        </methods>
+      </class> <!-- testCases.Login_TestCases -->
+    </classes>
+  </test> <!-- Auth Tests(failed) -->
+  <test thread-count="2" parallel="tests" name="Cart Tests(failed)">
+    <classes>
+      <class name="testCases.Cart_TestCases">
+        <methods>
+          <include name="SetUp"/>
+          <include name="testUpdateCart"/>
+          <include name="testDeleteCart"/>
+        </methods>
+      </class> <!-- testCases.Cart_TestCases -->
+    </classes>
+  </test> <!-- Cart Tests(failed) -->
+  <test thread-count="2" parallel="tests" name="Schema Tests(failed)">
+    <classes>
+      <class name="testCases.Schema_TestCases">
+        <methods>
+          <include name="testProductSchema"/>
+          <include name="SetUp"/>
+          <include name="testUserSchema"/>
+          <include name="testCartSchema"/>
+        </methods>
+      </class> <!-- testCases.Schema_TestCases -->
+    </classes>
+  </test> <!-- Schema Tests(failed) -->
 </suite> <!-- Failed suite [API Test Suite] -->

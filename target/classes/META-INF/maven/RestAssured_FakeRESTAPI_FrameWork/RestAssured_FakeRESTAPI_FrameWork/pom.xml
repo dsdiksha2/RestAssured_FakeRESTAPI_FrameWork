@@ -7,6 +7,8 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/x
   <version>0.0.1-SNAPSHOT</version>
   
   
+  
+  
   <build>
 		<pluginManagement>
 
@@ -147,7 +149,14 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/x
     <version>5.3.0</version>
 </dependency>
 
-<!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml -->
+<!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml to read excel files -->
+<dependency>
+    <groupId>org.apache.poi</groupId>
+    <artifactId>poi-ooxml</artifactId>
+    <version>5.3.0</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml to read excel files -->
 <dependency>
     <groupId>org.apache.poi</groupId>
     <artifactId>poi-ooxml</artifactId>
@@ -167,9 +176,6 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/x
     <artifactId>extentreports</artifactId>
     <version>${extentreports-version}</version>
 </dependency>
-  
-  
-  
   
 </dependencies>
   </project>

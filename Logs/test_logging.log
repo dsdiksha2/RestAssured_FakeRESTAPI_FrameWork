@@ -10,7 +10,7 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 200 OK
-Date: Thu, 26 Jun 2025 10:35:04 GMT
+Date: Thu, 26 Jun 2025 13:28:42 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -19,10 +19,10 @@ Etag: W/"a1-wvAyaNKAHffOoZd5/I4wHuNFvSs"
 X-Powered-By: Express
 Cf-Cache-Status: DYNAMIC
 Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
-Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=RtdvAaUhqIob0HCs4ZedcsaBeuTfKZnGcsQdCMRMHfGR5t5%2B6Q%2F8uEnnK0v15BsdQ53%2FwmHPUr4yrBUzDzzJ35fjEvbYOZBrvgI%2BW6ARliI%3D"}]}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=G0vKhBiK0V4KrZgdzPO7uPpAyjX0T5xm696aNTmFeTzclV%2Bvgw47gdQCGlcFVwEA9Uv0aqcacBfYaQp%2BkFOBYdfyIxWfF9no%2BnxOutSCavE%3D"}]}
 Content-Encoding: gzip
 Server: cloudflare
-CF-RAY: 955c0e465a0fa430-LHR
+CF-RAY: 955d0ca00b0e5592-LHR
 alt-svc: h3=":443"; ma=86400
 
 {
@@ -57,7 +57,7 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 200 OK
-Date: Thu, 26 Jun 2025 10:35:05 GMT
+Date: Thu, 26 Jun 2025 13:28:43 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -66,10 +66,10 @@ Etag: W/"16c-MMdrqY6N0sTiefLdsgtBej9eunY"
 X-Powered-By: Express
 Cf-Cache-Status: DYNAMIC
 Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
-Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=na%2FOoB4OC1lBCc4Zyd1ECh7oaDi4nHBfzUgSdGU9s2A5FxXFXp6mzt8%2FE%2FCiCnbhCShNR%2BsHAoEhVVuN%2BVqdYvIn1yTbJgY6mdf39HM4"}]}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=frO%2BzsSSgq6UVveDILSyruH1l1KESzKXlWeC%2Bm6INP0kLTMeRrRtjWG%2BwdYfMuInl8h8MIVFI0xssKlUYusXNY9GTpEg0k62btrxpgNvZqk%3D"}]}
 Content-Encoding: gzip
 Server: cloudflare
-CF-RAY: 955c0e4fdfa2f65b-LHR
+CF-RAY: 955d0ca5fe688560-LHR
 alt-svc: h3=":443"; ma=86400
 
 {
@@ -96,7 +96,7 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 200 OK
-Date: Thu, 26 Jun 2025 10:35:06 GMT
+Date: Thu, 26 Jun 2025 13:28:43 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -105,10 +105,331 @@ Etag: W/"120-HNMhv14aQeBJetA9fBvavCZ+gdk"
 X-Powered-By: Express
 Cf-Cache-Status: DYNAMIC
 Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
-Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=hSSFP9GumSybfclRcxTPodhpKSbS32ZIp5qHh7trgD93GO21XmPq1AjA1VoiH4ERk2rvvPM5og2grA1utL70JuSoKkRZmI8arDlvAOcj7bM%3D"}]}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=LoKICT0MGXOoXjaHY9PYJxTuXvl%2BSG0ubjhM2%2F2sehan4jqNjdo6K8AInpsHLQx3xJSVYD2%2B5MSfP1X6nB%2FL9vfqGrfSWM03%2BDpj3Oy1VJU%3D"}]}
 Content-Encoding: gzip
 Server: cloudflare
-CF-RAY: 955c0e53cd909431-LHR
+CF-RAY: 955d0ca95ac18b07-LHR
+alt-svc: h3=":443"; ma=86400
+
+{
+    "address": {
+        "geolocation": {
+            "lat": "-37.3159",
+            "long": "81.1496"
+        },
+        "city": "kilcoole",
+        "street": "new road",
+        "number": 7682,
+        "zipcode": "12926-3874"
+    },
+    "id": 1,
+    "email": "john@gmail.com",
+    "username": "johnd",
+    "password": "m38rmF$",
+    "name": {
+        "firstname": "john",
+        "lastname": "doe"
+    },
+    "phone": "1-570-236-7033",
+    "__v": 0
+}
+
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Thu, 26 Jun 2025 13:28:43 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Etag: W/"120-HNMhv14aQeBJetA9fBvavCZ+gdk"
+X-Powered-By: Express
+Cf-Cache-Status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=LoKICT0MGXOoXjaHY9PYJxTuXvl%2BSG0ubjhM2%2F2sehan4jqNjdo6K8AInpsHLQx3xJSVYD2%2B5MSfP1X6nB%2FL9vfqGrfSWM03%2BDpj3Oy1VJU%3D"}]}
+Content-Encoding: gzip
+Server: cloudflare
+CF-RAY: 955d0ca95ac18b07-LHR
+alt-svc: h3=":443"; ma=86400
+
+{
+    "address": {
+        "geolocation": {
+            "lat": "-37.3159",
+            "long": "81.1496"
+        },
+        "city": "kilcoole",
+        "street": "new road",
+        "number": 7682,
+        "zipcode": "12926-3874"
+    },
+    "id": 1,
+    "email": "john@gmail.com",
+    "username": "johnd",
+    "password": "m38rmF$",
+    "name": {
+        "firstname": "john",
+        "lastname": "doe"
+    },
+    "phone": "1-570-236-7033",
+    "__v": 0
+}
+NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjIsInVzZXIiOiJtb3JfMjMxNCIsImlhdCI6MTc1MDk0NDUyMn0.bMNbgu_R5qdCHopiMG3MFj7IcPnVcp239OMA2dYVQAQ"
+}
+HTTP/1.1 200 OK
+Date: Thu, 26 Jun 2025 13:28:42 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Etag: W/"a1-wvAyaNKAHffOoZd5/I4wHuNFvSs"
+X-Powered-By: Express
+Cf-Cache-Status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=G0vKhBiK0V4KrZgdzPO7uPpAyjX0T5xm696aNTmFeTzclV%2Bvgw47gdQCGlcFVwEA9Uv0aqcacBfYaQp%2BkFOBYdfyIxWfF9no%2BnxOutSCavE%3D"}]}
+Content-Encoding: gzip
+Server: cloudflare
+CF-RAY: 955d0ca00b0e5592-LHR
+alt-svc: h3=":443"; ma=86400
+
+{
+    "id": 1,
+    "userId": 1,
+    "date": "2020-03-02T00:00:00.000Z",
+    "products": [
+        {
+            "productId": 1,
+            "quantity": 4
+        },
+        {
+            "productId": 2,
+            "quantity": 1
+        },
+        {
+            "productId": 3,
+            "quantity": 6
+        }
+    ],
+    "__v": 0
+}
+Request method:	GET
+Request URI:	https://fakestoreapi.com/products/1
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=1
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Thu, 26 Jun 2025 13:28:43 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Etag: W/"16c-MMdrqY6N0sTiefLdsgtBej9eunY"
+X-Powered-By: Express
+Cf-Cache-Status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=frO%2BzsSSgq6UVveDILSyruH1l1KESzKXlWeC%2Bm6INP0kLTMeRrRtjWG%2BwdYfMuInl8h8MIVFI0xssKlUYusXNY9GTpEg0k62btrxpgNvZqk%3D"}]}
+Content-Encoding: gzip
+Server: cloudflare
+CF-RAY: 955d0ca5fe688560-LHR
+alt-svc: h3=":443"; ma=86400
+
+{
+    "id": 1,
+    "title": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
+    "price": 109.95,
+    "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+    "category": "men's clothing",
+    "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+    "rating": {
+        "rate": 3.9,
+        "count": 120
+    }
+}
+Request method:	GET
+Request URI:	https://fakestoreapi.com/users/1
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=1
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Thu, 26 Jun 2025 13:28:43 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Etag: W/"120-HNMhv14aQeBJetA9fBvavCZ+gdk"
+X-Powered-By: Express
+Cf-Cache-Status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=LoKICT0MGXOoXjaHY9PYJxTuXvl%2BSG0ubjhM2%2F2sehan4jqNjdo6K8AInpsHLQx3xJSVYD2%2B5MSfP1X6nB%2FL9vfqGrfSWM03%2BDpj3Oy1VJU%3D"}]}
+Content-Encoding: gzip
+Server: cloudflare
+CF-RAY: 955d0ca95ac18b07-LHR
+alt-svc: h3=":443"; ma=86400
+
+{
+    "address": {
+        "geolocation": {
+            "lat": "-37.3159",
+            "long": "81.1496"
+        },
+        "city": "kilcoole",
+        "street": "new road",
+        "number": 7682,
+        "zipcode": "12926-3874"
+    },
+    "id": 1,
+    "email": "john@gmail.com",
+    "username": "johnd",
+    "password": "m38rmF$",
+    "name": {
+        "firstname": "john",
+        "lastname": "doe"
+    },
+    "phone": "1-570-236-7033",
+    "__v": 0
+}
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     Request method:	GET
+Request URI:	https://fakestoreapi.com/carts/1
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=1
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Thu, 26 Jun 2025 13:28:42 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Etag: W/"98-6HU/HwdyTAWCax44Tic4BozO+Tw"
+X-Powered-By: Express
+Cf-Cache-Status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=8DwSjlpEnlD%2BBT%2FfP2b6t4via3ERr5fJeHzVZRm%2BwmKpHcXgKoglE35rqbyLmaXq1urNo5HlHwUvjgmBQ9LAbt3lQE89drVKvqMBXTV4Ag4%3D"}]}
+Content-Encoding: gzip
+Server: cloudflare
+CF-RAY: 955d0c9d5c591239-LHR
+alt-svc: h3=":443"; ma=86400
+
+{
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjIsInVzZXIiOiJtb3JfMjMxNCIsImlhdCI6MTc1MDk0NDUyMn0.bMNbgu_R5qdCHopiMG3MFj7IcPnVcp239OMA2dYVQAQ"
+}
+HTTP/1.1 200 OK
+Date: Thu, 26 Jun 2025 13:28:42 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Etag: W/"a1-wvAyaNKAHffOoZd5/I4wHuNFvSs"
+X-Powered-By: Express
+Cf-Cache-Status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=G0vKhBiK0V4KrZgdzPO7uPpAyjX0T5xm696aNTmFeTzclV%2Bvgw47gdQCGlcFVwEA9Uv0aqcacBfYaQp%2BkFOBYdfyIxWfF9no%2BnxOutSCavE%3D"}]}
+Content-Encoding: gzip
+Server: cloudflare
+CF-RAY: 955d0ca00b0e5592-LHR
+alt-svc: h3=":443"; ma=86400
+
+{
+    "id": 1,
+    "userId": 1,
+    "date": "2020-03-02T00:00:00.000Z",
+    "products": [
+        {
+            "productId": 1,
+            "quantity": 4
+        },
+        {
+            "productId": 2,
+            "quantity": 1
+        },
+        {
+            "productId": 3,
+            "quantity": 6
+        }
+    ],
+    "__v": 0
+}
+Request method:	GET
+Request URI:	https://fakestoreapi.com/products/1
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=1
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Thu, 26 Jun 2025 13:28:43 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Etag: W/"16c-MMdrqY6N0sTiefLdsgtBej9eunY"
+X-Powered-By: Express
+Cf-Cache-Status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=frO%2BzsSSgq6UVveDILSyruH1l1KESzKXlWeC%2Bm6INP0kLTMeRrRtjWG%2BwdYfMuInl8h8MIVFI0xssKlUYusXNY9GTpEg0k62btrxpgNvZqk%3D"}]}
+Content-Encoding: gzip
+Server: cloudflare
+CF-RAY: 955d0ca5fe688560-LHR
+alt-svc: h3=":443"; ma=86400
+
+{
+    "id": 1,
+    "title": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
+    "price": 109.95,
+    "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+    "category": "men's clothing",
+    "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+    "rating": {
+        "rate": 3.9,
+        "count": 120
+    }
+}
+Request method:	GET
+Request URI:	https://fakestoreapi.com/users/1
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=1
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Thu, 26 Jun 2025 13:28:43 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Etag: W/"120-HNMhv14aQeBJetA9fBvavCZ+gdk"
+X-Powered-By: Express
+Cf-Cache-Status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=LoKICT0MGXOoXjaHY9PYJxTuXvl%2BSG0ubjhM2%2F2sehan4jqNjdo6K8AInpsHLQx3xJSVYD2%2B5MSfP1X6nB%2FL9vfqGrfSWM03%2BDpj3Oy1VJU%3D"}]}
+Content-Encoding: gzip
+Server: cloudflare
+CF-RAY: 955d0ca95ac18b07-LHR
 alt-svc: h3=":443"; ma=86400
 
 {

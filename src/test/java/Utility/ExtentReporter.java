@@ -42,8 +42,9 @@ public class ExtentReporter implements ITestListener {
         if (extent == null) {
             // Generate a unique report name with timestamp
             String timeStamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());
-            reportName = "Extent-Report-" + timeStamp + ".html";
-            String reportPath = System.getProperty("user.dir") + "\\reports\\" + reportName;
+            reportName = "Extent-Report"+".html";
+            String reportPath = "./target/" + reportName;
+            //String reportPath = System.getProperty("user.dir") + "\\target\\Reports\\" + reportName;
 
             // Configure the ExtentSparkReporter
             sparkReporter = new ExtentSparkReporter(reportPath);
