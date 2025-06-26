@@ -41,7 +41,7 @@ public class ExtentReporter implements ITestListener {
     public synchronized static ExtentReports getExtentInstance() {
         if (extent == null) {
             // Generate a unique report name with timestamp
-            String timeStamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());
+            //String timeStamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());
             reportName = "Extent-Report"+".html";
             String reportPath = "./target/" + reportName;
             //String reportPath = System.getProperty("user.dir") + "\\target\\Reports\\" + reportName;

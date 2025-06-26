@@ -37,7 +37,7 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/x
 	</build>
 	
 	
-	<!-- Here you can change the versions in future -->
+	<!-- Here you can change the versions in future  mention the version here-->
 	<properties>
 		<rest-assured-version>5.5.0</rest-assured-version>
 		<testng-version>7.10.2</testng-version>
