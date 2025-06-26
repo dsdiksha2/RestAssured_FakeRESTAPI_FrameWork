@@ -1,0 +1,43 @@
+Step 1: Create a Maven project
+
+Step 2: Create package in src/test/java Folder
+EX: pay load, POJO, end points, test cases, utility
+
+Steps 3: Create a end points class in Route package of the moudules you are working on
+(All end points can be in one class) 
+
+Step 4: Create POJO class in POJO package
+Define variables and data type, getter and setter and constructor defining var
+Can create pojo class using AI
+
+Step5: Create "Base class" in TestCases package
+Multiple test cases will have common data, ex: base url, helper method or accessing config.prop file or generating logs
+All this common function will be in one class and it can be extend into testcases class
+
+Step 6: Create config.properties files in test/resources
+can store userid and pwd and different details as per testcases
+
+Step 7: create utility class to read data from the properties file in utilities folder
+
+Step 8: Create test cases, check product test cases file and created log file to capture logs
+
+In API testing mostly json(mostly) or csv file is used for data for data driven testing, if using excel then add apache poi dependency
+and create excel utility file to read excel data
+
+Step 9: create data provider to read data from json or csv file
+
+Step 10: created another test class for data driven test cases
+
+Step 11: Create extent and allure report. Create extent report under utility folder
+and declare 'utility.extentreport' using listeners tag in testng.XML
+Allure report is automatically generate if dependency is added in pom file, in json file format
+Download allure report for windows zip file and apache maven bin.zip file and set path for both till bin folder
+
+Now go to allure-results folder open CMD abd run the command 
+cd C:\Users\Diksha\OneDrive - AFFINITY GLOBAL ADVERTISING PVT LTD\Desktop\Automation\RestAssured_FakeRESTAPI_FrameWork\allure-results>allure serve "C:\Users\Diksha\OneDrive - AFFINITY GLOBAL ADVERTISING PVT LTD\Desktop\Automation\RestAssured_FakeRESTAPI_FrameWork\allure-results"
+
+
+Step 12: If JSON schema has multiple json object nested in another then create multiple pojo class based on the json object and then call all in the main
+pojo class. Create pay load load data accordingly. EX: can check the USER module code
+
+Step 13: Add this line in testng.xml file to run parallel test , "<suite name="API Test Suite"  thred-count="2" parallel="tests">"

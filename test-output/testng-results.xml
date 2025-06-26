@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-06-26T16:05:04 IST" name="Default suite" finished-at="2025-06-26T16:05:09 IST" duration-ms="5023">
+    <groups>
+    </groups>
+    <test started-at="2025-06-26T16:05:04 IST" name="Default test" finished-at="2025-06-26T16:05:09 IST" duration-ms="5023">
+      <class name="testCases.Schema_TestCases">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:testCases.Schema_TestCases@7dc3712]" started-at="2025-06-26T16:05:04 IST" name="SetUp" finished-at="2025-06-26T16:05:04 IST" duration-ms="540" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="testCartSchema()[pri:0, instance:testCases.Schema_TestCases@7dc3712]" started-at="2025-06-26T16:05:04 IST" name="testCartSchema" finished-at="2025-06-26T16:05:07 IST" duration-ms="3050" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCartSchema -->
+        <test-method signature="testProductSchema()[pri:0, instance:testCases.Schema_TestCases@7dc3712]" started-at="2025-06-26T16:05:07 IST" name="testProductSchema" finished-at="2025-06-26T16:05:08 IST" duration-ms="569" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProductSchema -->
+        <test-method signature="testUserSchema()[pri:0, instance:testCases.Schema_TestCases@7dc3712]" started-at="2025-06-26T16:05:08 IST" name="testUserSchema" finished-at="2025-06-26T16:05:09 IST" duration-ms="732" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUserSchema -->
+      </class> <!-- testCases.Schema_TestCases -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
